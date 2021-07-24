@@ -1,13 +1,20 @@
-package main
+package myModult
 
-import (
-	"fmt"
+import "fmt"
 
-	v1 "github.com/mactsouk/myModule"
-)
-
-func main() {
-	fmt.Println()
-	v1.Version()
-
+func Version() {
+	fmt.Println("Version 1.0.0")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
